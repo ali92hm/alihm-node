@@ -36,4 +36,4 @@ const webing = `${data.labelWeb}  ${data.web}`
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline
 
-console.log(chalk.green(boxen(output, options)))
+module.exports = chalk.green(boxen(output, options));
